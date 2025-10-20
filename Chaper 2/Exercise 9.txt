@@ -1,0 +1,12 @@
+Title: Favorite Number
+
+Question: Store your favorite number in a variable. Then, using
+that variable, create a message that reveals your favorite number. Print that
+message.
+
+Answer:
+
+fav_num = 10
+msg = f"My favorite number is {fav_num}."
+
+print(msg)
