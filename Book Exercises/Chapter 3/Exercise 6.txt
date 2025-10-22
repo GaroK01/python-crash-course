@@ -11,3 +11,30 @@ bigger dinner table.
 • Print a new set of invitation messages, one for each person in your list.
 
 Answer:
+
+Answer: 
+
+guests = ['Garry Kasparov', 'Magnus Carlsen', 'Bobby Fischer']
+
+print(f'Hey {guests[0]}, you are invited to my dinner party.')
+print(f'Hey {guests[1]}, you are invited to my dinner party.')
+print(f'Hey {guests[2]}, you are invited to my dinner party.')
+
+print(f'Unfortunately, {guests[2]} will be absent.')
+
+del(guests[2])
+guests.insert(2, 'Anatoly Karpov')
+
+print(f'Hey {guests[0]}, you are invited to my dinner party.')
+print(f'Hey {guests[1]}, you are invited to my dinner party.')
+print(f'Hey {guests[2]}, you are invited to my dinner party.')
+print('Good news! I have found a bigger table!')
+guests.insert(0,'Vladimir Kramnik')
+guests.insert(2,'Mikhail Tal')
+guests.insert(2,'Bobby Fischer')
+guests.append('Boris Spasky')
+print(f'Welcome to my party {guests[0]}, have fun!')
+print(f'Welcome to my party {guests[1]}, have fun!')
+print(f'Welcome to my party {guests[2]}, have fun!')
+print(f'Welcome to my party {guests[3]}, have fun!')
+print(f'Welcome to my party {guests[4]}, have fun!')
