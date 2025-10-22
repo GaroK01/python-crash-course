@@ -28,15 +28,18 @@ Includes three major projects:
 ```bash
 python-crash-course/
 │
-├── chapter_01/        # Getting Started
-├── chapter_02/        # Variables and Strings
-├── chapter_03/        # Lists
-├── chapter_04/        # Working with Lists
-...
-├── chapter_11/        # Testing Your Code
-│
-├── project_alien_invasion/     # Game project
-├── project_data_visualization/ # Matplotlib, CSV, APIs
-├── project_django/             # Web app project
+├── Book Exercises
+    │
+    │ ──chapter 1/        # Getting Started
+    ├── chapter_02/        # Variables and Strings
+    ├── chapter_03/        # Lists
+    ├── chapter_04/        # Working with Lists
+    ...
+    ├── chapter_11/        # Testing Your Code
+├──Projects
+  │
+  ├── project_alien_invasion/     # Game project
+  ├── project_data_visualization/ # Matplotlib, CSV, APIs
+  ├── project_django/             # Web app project
 │
 └── README.md         # This file
