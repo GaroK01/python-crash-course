@@ -20,7 +20,6 @@ for pizza in pizzas:
 
 print("\n")
 
-# Print a sentence about each pizza.
 for pizza in pizzas:
   print(f'I really love {pizza} pizza!')
 
