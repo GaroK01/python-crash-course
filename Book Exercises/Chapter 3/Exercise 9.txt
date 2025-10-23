@@ -1,0 +1,16 @@
+Title: Dinner Guests
+
+Exercise: Working with one of the programs from Exercises 3-4
+through 3-7 (page 46), use len() to print a message indicating the number
+of people you are inviting to dinner.
+
+Answer: 
+
+guests = ['Garry Kasparov', 'Magnus Carlsen', 'Bobby Fischer']
+
+print(f'Hey {guests[0]}, you are invited to my dinner party.')
+print(f'Hey {guests[1]}, you are invited to my dinner party.')
+print(f'Hey {guests[2]}, you are invited to my dinner party.')
+
+number_of_guests = len(guests)
+print(f'I have invited {number_of_guests} guests.')
