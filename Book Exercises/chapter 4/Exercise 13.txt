@@ -1,0 +1,24 @@
+Title: Buffet
+
+Exercise: A buffet-style restaurant offers only five basic foods. Think of five
+simple foods, and store them in a tuple.
+• Use a for loop to print each food the restaurant offers.
+• Try to modify one of the items, and make sure that Python rejects the
+change.
+• The restaurant changes its menu, replacing two of the items with different
+foods. Add a block of code that rewrites the tuple, and then use a for
+loop to print each of the items on the revised menu.
+
+Answer:
+
+print("Original menu:")
+buffet = (steak, fries, salmon, chicken, rice)
+for food in buffet:
+  print(food)
+# buffet[0] = 'burger' This will give an error as we can't modify a tuple 
+
+buffet = (steak, fries, beans, salad, rice)
+
+print("Revised menu:")
+for food in buffet:
+  print(food)
