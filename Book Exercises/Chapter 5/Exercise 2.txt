@@ -13,3 +13,26 @@ less than, greater than or equal to, and less than or equal to
 • Test whether an item is not in a list
 
 Answer:
+
+car = 'BMW'
+
+print(car == 'KIA')
+print(car == 'bmw'.upper())
+
+print(car == 'BMW'.lower())
+car = 'bmw'
+print(car == 'BMW'.lower())
+
+print(5 == 7)
+print(15 > 2)
+
+print(False and False)
+print(True or False)
+
+cars = ['BMW', 'KIA', 'Mazda']
+
+print('Toyota' in cars)
+print('Mazda' in cars)
+
+print('KIA' not in cars)
+print('Honda' not in cars)
