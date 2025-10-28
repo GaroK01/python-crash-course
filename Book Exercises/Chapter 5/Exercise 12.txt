@@ -1,0 +1,9 @@
+Title: Styling if statements
+
+Exercise: Review the programs you wrote in this chapter, and
+make sure you styled your conditional tests appropriately.
+
+Answer:
+
+Review your code from the previous exercise and make it more readable,
+for example "if 7 > 4" is easier to read than "if 7>4".
