@@ -1,0 +1,17 @@
+Title: Pizza Toppings
+
+Exercise: Write a loop that prompts the user to enter a series of
+pizza toppings until they enter a 'quit' value. As they enter each topping,
+print a message saying you’ll add that topping to their pizza.
+
+Answer:
+
+flag = True
+print ("What toppings do you want on your pizza?")
+
+while flag:
+  topping = input("Enter your topping. If done enter quit ")
+  if topping == 'quit':
+    break
+  else:
+    print(f"I will add {topping} on your pizza")
