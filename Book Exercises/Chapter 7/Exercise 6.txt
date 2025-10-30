@@ -1,0 +1,20 @@
+Title: Three Exits
+
+Exercise: Write different versions of either Exercise 7-4 or Exercise 7-5
+that do each of the following at least once:
+• Use a conditional test in the while statement to stop the loop.
+• Use an active variable to control how long the loop runs.
+• Use a break statement to exit the loop when the user enters a 'quit' value.
+
+Answer:
+
+flag = True
+print ("What toppings do you want on your pizza?")
+
+while flag:
+  topping = input("Enter your topping. If done enter quit ")
+  if topping == 'quit':
+    flag = false # I changed this line to achieve the second condition (the other two are already completed in Exercise 4)
+  else:
+    print(f"I will add {topping} on your pizza")
+
