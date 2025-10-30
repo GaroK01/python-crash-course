@@ -9,7 +9,7 @@ message listing each sandwich that was made.
 
 Answer:
 
-sandwich_orders = ['']
+sandwich_orders = ["Turkey & Swiss", "Ham & Cheese", "BLT", "Club Sandwich", "Grilled Cheese"]
 finished_sandwiches = []
 
 while sandwich_orders:
