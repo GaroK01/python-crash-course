@@ -1,0 +1,40 @@
+Title: Album
+
+Exercise: Write a function called make_album() that builds a dictionary
+describing a music album. The function should take in an artist name and an
+album title, and it should return a dictionary containing these two pieces of
+information. Use the function to make three dictionaries representing different
+albums. Print each return value to show that the dictionaries are storing the
+album information correctly.
+Add an optional parameter to make_album() that allows you to store the
+number of tracks on an album. If the calling line includes a value for the
+number of tracks, add that value to the album’s dictionary. Make at least one new
+function call that includes the number of tracks on an album.
+
+Answer:
+
+def make_album(artist, title):
+  album_dict = {'artist': artist.title(),
+                'title': title.title()}
+  return album_dict
+
+album = make_album('Ludovico Einaudi', 'Primavera')
+print(album)
+
+album = make_album('Adele', 'Easy On Me')
+print(album)
+
+album = make_album('Elton John', 'Bennie and the Jets')
+print(album)
+
+# Second version
+
+def make_album(artist, title, num_songs=0):
+  album_dict = {'artist': artist.title(),
+                'title': title.title(),}
+  if num_songs:
+    album_dict['num_songs'] = num_songs
+  return album_dict
+
+album = make_album('Alicia Keys', 'Diary', num_songs=12)
+print(album)
