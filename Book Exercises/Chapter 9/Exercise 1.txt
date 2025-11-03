@@ -23,7 +23,7 @@ class Restaurant:
   def open_restaurant(self):
     print(f"{self.name} is open!")
 
-restaurant = Restaurant('Kebab Hagop', 'Armenian')
+restaurant = Restaurant('Abou Hagop', 'Kebab')
 print(restaurant.name)
 print(restaurant.cuisine_type)
 
