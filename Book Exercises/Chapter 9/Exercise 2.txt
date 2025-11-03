@@ -1,0 +1,31 @@
+Title: Three Restaurants
+
+Exercise: Start with your class from Exercise 9-1 Create three
+different instances from the class, and call describe_restaurant() for each
+instance.
+
+Answer:
+
+
+class Restaurant:
+
+  def __init__(self, name, cuisine_type):
+    self.name = name.title()
+    self.cuisine_type = cuisine_type
+
+  def describe_restaurant(self):
+    msg = f"{self.name} serves tasty {self.cuisine_type}."
+    print(f"\n{msg}")
+
+  def open_restaurant(self):
+    print(f"{self.name} is open!")
+
+
+armo_restaurant = Restaurant('Abou Hagop', 'Kebab')
+armo_restaurant.describe_restaurant()
+
+french_restaurant = Restaurant('Chez Margot', 'Boeuf Bourguignon')
+french_restaurant.describe_restaurant()
+
+italian_restaurant = Restaurant('Pizzaiolo Napoli', 'Pizza')
+italian_restaurant.describe_restaurant()
