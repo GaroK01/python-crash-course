@@ -31,11 +31,11 @@ python-crash-course/
 ├── Book Exercises
     │
     │ ──chapter 1/        # Getting Started
-    ├── chapter_02/        # Variables and Strings
-    ├── chapter_03/        # Lists
-    ├── chapter_04/        # Working with Lists
+    ├── chapter 2/        # Variables and Strings
+    ├── chapter 3/        # Lists
+    ├── chapter 4/        # Working with Lists
     ...
-    ├── chapter_11/        # Testing Your Code
+    ├── chapter 11/        # Testing Your Code
 ├──Projects
   │
   ├── project_alien_invasion/     # Game project
