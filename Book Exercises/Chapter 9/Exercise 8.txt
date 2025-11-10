@@ -53,5 +53,7 @@ garo = Admin('Garo', 'Kalfayan', 'GaroK01', 'garokalfayan31@gmail.com', 'Lebanon
 garo.describe_user()
 
 garo.privileges = ['Password reset', 'Create new accounts', 'Account suspension']
+garo.privileges.privileges = garo_privileges
+garo.privileges.show_privileges()
 
 garo.show_privileges()
