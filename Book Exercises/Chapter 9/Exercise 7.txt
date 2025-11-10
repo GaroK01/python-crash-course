@@ -43,7 +43,7 @@ class Admin(User):
 
 
 garo = Admin('Garo', 'Kalfayan', 'GaroK01', 'garokalfayan31@gmail.com', 'Lebanon')
-eric.describe_user()
+garo.describe_user()
 
 garo.privileges = ['Password reset', 'Create new accounts', 'Account suspension']
 
