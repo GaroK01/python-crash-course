@@ -46,7 +46,7 @@ class Privileges:
       for privilege in self.privileges:
         print(f"-{privilege}")
     else:
-        print("-This user has no privileges.")
+      print("-This user has no privileges.")
 
 
 garo = Admin('Garo', 'Kalfayan', 'GaroK01', 'garokalfayan31@gmail.com', 'Lebanon')
