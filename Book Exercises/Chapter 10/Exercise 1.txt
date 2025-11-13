@@ -22,6 +22,6 @@ with open(path) as file_object:
     print(line)
 
 with open(path) as file_object:
-  lines = file_object.readlines()
-for line in lines:
+  contents = file_object.readlines()
+for line in contents:
   print(line)      
