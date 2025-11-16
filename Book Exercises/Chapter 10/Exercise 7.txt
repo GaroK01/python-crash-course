@@ -1,0 +1,30 @@
+Title: Addition Calculator
+
+Exercise: Wrap your code from Exercise 10-5 in a while loop
+so the user can continue entering numbers, even if they make a mistake and
+enter text instead of a number.
+
+Answer:
+
+print("Enter 'q' to quit.")
+
+while True:
+  try:
+    n = input("Give me a number: ")
+    if n == 'q':
+      break
+
+    n = int(n)
+  
+    n1 = input("Give me another number: ")
+    if n1 == 'q':
+      break
+  
+    n1 = int(n1)
+
+  except ValueError:
+    print("Please enter a valid number.")
+
+  else:
+    sum = n + n1
+    print(f"The sum of {n} and {n1} is {sum}.")

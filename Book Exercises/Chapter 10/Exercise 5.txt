@@ -1,0 +1,18 @@
+Title: Programming Poll
+
+Exercise: Write a while loop that asks people why they like
+programming. Each time someone enters a reason, add their reason to a file
+that stores all the responses.
+
+Answer:
+
+path = 'programming_reasons.txt'
+print("Enter 'quit' when you are finished.\n")
+
+while True:
+  reason = input("Why do you like programming? ")
+  if reason.lower() == 'quit':
+    break
+  else:
+    with open(filename, 'a') as file_object:
+      file_object.write(reason + '\n')

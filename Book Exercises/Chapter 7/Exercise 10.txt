@@ -1,0 +1,27 @@
+Title: Dream Vacation
+
+Exercise: Write a program that polls users about their dream
+vacation. Write a prompt similar to If you could visit one place in the world,
+where would you go? Include a block of code that prints the results of the poll.
+
+Answer:
+
+responses = {}
+flag = True
+
+print("Welcome to the Dream Vacation Poll!")
+print("If you could visit one place in the world, where would you go?")
+
+while flag:
+  name = input("What is your name? ")
+  vacation = input("Where would you like to go on your dream vacation? ")
+  
+  responses[name] = vacation
+  
+  repeat = input("Would you like to let another person respond? (yes/no) ")
+  if repeat == 'no':
+    flag = False
+
+print("Results of the poll")
+for name, vacation in responses.items():
+  print(f"{name} would like to visit {vacation}.")

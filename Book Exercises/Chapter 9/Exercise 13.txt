@@ -1,0 +1,26 @@
+Title: OrderedDict Rewrite
+
+Exercise: Start with Exercise 6-4 (page 108), where you
+used a standard dictionary to represent a glossary. Rewrite the program using
+the OrderedDict class and make sure the order of the output matches the order
+in which key-value pairs were added to the dictionary.
+
+Answer:
+
+from collections import OrderedDict
+
+glossary = OrderedDict()
+glossary['variable'] = 'A name that stores a value, which can change during program execution.'
+glossary['function'] = 'A block of reusable code that performs a specific task.'
+glossary['loop'] = 'A structure that repeats a block of code while a condition is true.'
+glossary['list'] = 'An ordered collection of items that can be changed (mutable).'
+glossary['dictionary'] = 'A collection of key-value pairs that stores data in mappings.'
+glossary['tuple'] = 'An ordered collection of items that cannot be changed (immutable).'
+glossary['string'] = 'A sequence of characters enclosed in quotes.'
+glossary['boolean'] = 'A data type that can hold one of two values: True or False.'
+glossary['set'] = 'An unordered collection of unique items.'
+glossary['if'] = 'A control structure used to make decisions in code.'
+
+for term, meaning in glossary.items():
+  print(f"{term.title()}: {meaning}\n")
+

@@ -1,0 +1,35 @@
+Title: Extensions
+
+Exercise: We’re now working with examples that are complex enough
+that they can be extended in any number of ways. Use one of the example 
+programs from this chapter, and extend it by adding new keys and values, 
+changing the context of the program or improving the formatting of the output.
+
+Answer:
+
+cities = {
+    'Tokyo': {'country': 'Japan',
+              'population': '37 million',
+              'fact': 'Tokyo is the most populous metropolitan area in the world.',
+              'famous_landmark': 'Tokyo Tower',
+              'timezone': 'JST (UTC+9)'},
+    'Paris': {'country': 'France',
+              'population': '11 million',
+              'fact': 'Paris is known as the “City of Light.”',
+              'famous_landmark': 'Eiffel Tower',
+              'timezone': 'CET (UTC+1)'},
+    'New York': {'country': 'USA',
+                 'population': '8.5 million',
+                 'fact': 'New York City is home to Times Square and Central Park.',
+                 'famous_landmark': 'Statue of Liberty',
+                 'timezone': 'EST (UTC−5)'}
+}
+
+for city, info in cities.items():
+    print(f"CITY: {city.upper()}")
+    print(f"Country: {info['country']}")
+    print(f"Population: {info['population']}")
+    print(f"Timezone: {info['timezone']}")
+    print(f"Famous Landmark: {info['famous_landmark']}")
+    print(f"Fact: {info['fact']}")
+    

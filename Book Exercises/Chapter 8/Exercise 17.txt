@@ -1,0 +1,9 @@
+Title: Styling Functions
+
+Exercise: Choose any three programs you wrote for this chapter,
+and make sure they follow the styling guidelines described in this section.
+
+Answer:
+
+Review your programs and make sure they follow the Python style guidelines
+by applying proper naming, spacing, and formatting to the code.

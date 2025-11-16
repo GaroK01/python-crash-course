@@ -1,0 +1,16 @@
+Title: Imported Restaurant: 
+
+Exercise: Using your latest Restaurant class, store it in a module.
+Make a separate file that imports Restaurant. Make a Restaurant instance,
+and call one of Restaurant’s methods to show that the import statement is
+working properly.
+
+Answer:
+
+# My Restaurant class will be present in the chapter 9 folder
+
+from restaurant import Restaurant
+
+new_concept = Restaurant('The new cocnept resto', 'Surprises and surprises')
+new_concept.describe_restaurant()
+new_concept.open_restaurant()

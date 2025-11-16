@@ -1,0 +1,5 @@
+In Python, you can build fun games.
+
+Also, you can build interactive quizzes.
+
+Well, you can create anything that you want.

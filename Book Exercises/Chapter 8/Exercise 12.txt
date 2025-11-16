@@ -1,0 +1,17 @@
+Title: Sandwiches
+
+Exercise: Write a function that accepts a list of items a person wants
+on a sandwich. The function should have one parameter that collects as many
+items as the function call provides, and it should print a summary of the sand-
+wich that is being ordered. Call the function three times, using a different num-
+ber of arguments each time.
+
+Answer:
+
+def make_sandwich(*ingredients):
+  for ingredient in ingredients:
+    print(f"  ...adding {ingredient} to your sandwich.")
+
+make_sandwich('roast beef', 'cheddar cheese', 'BBQ sauce')
+make_sandwich('chicken', 'lettuce', 'honey mustard')
+make_sandwich('peanut butter', 'strawberry jam')

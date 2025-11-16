@@ -1,0 +1,9 @@
+Title: Simple Message
+
+Question: Store a message in a variable, and then print that message.
+
+Answer: 
+
+message = 'Let's start coding'
+print (message)
+ 

@@ -1,0 +1,15 @@
+Title: Python Module of the Week
+
+Exercise: One excellent resource for exploring the
+Python standard library is a site called Python Module of the Week. Go to
+http://pymotw.com/ and look at the table of contents. Find a module that
+looks interesting to you and read about it, or explore the documentation of
+the collections and random modules.
+
+Answer:
+
+That's actually a good way to learn about new methods and modules to use in your projects.
+
+I will provide you one module that I found insteresting: zlib — GNU zlib Compression.
+
+Keep learning! :)

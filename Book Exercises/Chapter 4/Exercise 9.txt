@@ -1,0 +1,11 @@
+Title: Cube 
+
+Exercise: Comprehension: Use a list comprehension to generate a list of the
+first 10 cubes.
+
+Answer:
+
+list_cube = [value**3 for value in range(1,11)]
+
+for num in list_cube:
+  print(num)

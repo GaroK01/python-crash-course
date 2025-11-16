@@ -1,0 +1,14 @@
+Title: Simple Messages
+
+Question: Store a message in a variable, and print that message.
+Then change the value of your variable to a new message, and print the new
+message.
+
+Answer:
+
+message = 'I started learning Python' 
+print (message)
+
+message = 'I completed learning Python'
+// Now the message got modified, and will print the new message
+print (message)

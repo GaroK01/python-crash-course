@@ -1,0 +1,12 @@
+Title: Guest
+
+Exercise: Write a program that prompts the user for their name. When they
+respond, write their name to a file called guest.txt.
+
+Answer:
+
+path = 'guest.txt'
+name = input("What is your name?")
+
+with open(path, 'w') as file_object:
+  file_object.write_text(name)

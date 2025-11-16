@@ -1,0 +1,12 @@
+Title: Famous Quote 2
+
+Question: Repeat Exercise 2-5, but this time store the famous per-
+son’s name in a variable called famous_person. Then compose your message
+and store it in a new variable called message. Print your message.
+
+Answer:
+
+message = ' once said:" The problem with quotes found on the internet is that they are often not true"'
+famous_person ="Abraham Lincoln" 
+
+print (famous_person + message)

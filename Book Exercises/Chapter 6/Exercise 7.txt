@@ -1,0 +1,27 @@
+Title: People
+
+Exercise: Start with the program you wrote for Exercise 6-1 (page 102).
+Make two new dictionaries representing different people, and store all three
+dictionaries in a list called people Loop through your list of people As you
+loop through the list, print everything you know about each person.
+
+Answer:
+
+people = []
+
+dict_person = {'first_name': 'John', 'last_name': 'Doe', 'age': 35, 'city': 'London'}
+people.append(dict_person)
+
+dict_person = {'first_name': 'Luke', 'last_name': 'Shaw', 'age': 31, 'city': 'Glasgow'}
+people.append(dict_person)
+
+dict_person = {'first_name': 'Christ', 'last_name': 'Lookman', 'age': 28, 'city': 'Boston'}
+people.append(dict_person)
+
+for person in people:
+  name = f"{person['first_name'])} {person['last_name']}"
+  age = person['age']
+  city = person['city'].title()
+
+  print(f"{name}, from {city}, is {age} years old.")  
+

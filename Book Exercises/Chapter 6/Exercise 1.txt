@@ -1,0 +1,15 @@
+Title: Person
+
+exercise: Use a dictionary to store information about a person you know.
+Store their first name, last name, age, and the city in which they live. You
+should have keys such as first_name, last_name, age, and city. Print each
+piece of information stored in your dictionary.
+
+Answer:
+
+dict_person = {'first_name': 'John', 'last_name': 'Doe', 'age': 35, 'city': 'London'}
+
+print(dict_person['first_name'])
+print(dict_person['last_name'])
+print(dict_person['age'])
+print(dict_person['city'])

@@ -1,0 +1,20 @@
+Title: Multiple Modules
+
+Exercise: Store the User class in one module, and store the
+Privileges and Admin classes in a separate module. In a separate file, create
+an Admin instance and call show_privileges() to show that everything is still
+working correctly.
+
+Asnwer:
+# The files are present in the chapter 9 folder
+
+from my_admin import Admin
+
+garo = Admin('Garo', 'Kalfayan', 'GaroK01', 'garokalfayan31@gmail.com', 'Lebanon')
+garo.describe_user()
+
+garo.privileges = ['Password reset', 'Create new accounts', 'Account suspension']
+garo.privileges.privileges = garo_privileges
+garo.privileges.show_privileges()
+
+garo.show_privileges()
