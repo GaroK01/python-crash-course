@@ -1,0 +1,18 @@
+Title: Silent Cats and Dogs
+
+Exercise: Modify your except block in Exercise 10-8 to fail
+silently if either file is missing.
+
+Answer:
+
+filenames = ['cats.txt', 'dogs.txt']
+
+for filename in filenames:
+  try:    
+  with open(filename, 'r') as file:
+    contents = file.read()
+  except FileNotFoundError:
+    pass
+  else:
+    print(f"Reading file: {filename}")
+    print(contents)
