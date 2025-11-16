@@ -1,0 +1,18 @@
+Title: Favorite Number
+
+Exercise: Write a program that prompts for the user’s favorite
+number. Use json.dumps() to store this number in a file. Write a separate program that reads in this value and prints the message “I know your favorite
+number! It’s _____.”
+
+Answer:
+
+import json
+
+number = input("What's your favorite number? ")
+filename = 'favorite_number.json'
+contents = json.dumps(number)
+
+with open(filename, 'w') as file:
+  file.write(contents)
+
+print("Thank you!")
