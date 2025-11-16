@@ -1,5 +1,5 @@
-from city_functions import city_country
-
-def test_city_country():
-  santiago_chile = city_country('santiago', 'chile')
-  assert santiago_chile == 'Santiago, Chile'
+def city_country(city, country, population =0):
+    city_info = f"{city.title()}, {country.title()}"
+    if population:
+        city_info += f", population: {population}"
+    return city_info
