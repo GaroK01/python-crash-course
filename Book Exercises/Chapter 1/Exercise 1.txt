@@ -1,6 +1,6 @@
 Title: python.org
 
-Question: Explore the Python home page (http://python.org/) to find topics that interest you.
+Exercise: Explore the Python home page (http://python.org/) to find topics that interest you.
 As you become familiar with Python, different parts of the site will be more useful to you.
 
 Answer: Right now, there’s not much for to do, but it’s good to know where to go for trusted information as we start working with Python.
